@@ -5,3 +5,19 @@
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+section{
+    height:100vh;
+}
+
+.red-bg{
+    background-color: red;
+}
+
+.green-bg{
+    background-color: forestgreen;
+}
+
+.yellow-bg{
+    background-color: gold;
+}
+
