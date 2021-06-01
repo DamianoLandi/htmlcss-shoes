@@ -6,6 +6,12 @@
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
 nav{
     float:right;
     position:fixed;
@@ -34,6 +40,7 @@ a{
 section{
     height:100vh;
     line-height: 100%;
+    position: relative;
 }
 
 .red-bg{
@@ -67,9 +74,10 @@ h2{
 .box{
     width: 700px;
     height: 500px;
-    margin:auto;
-    position: relative;
-    top:50px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
 
 .yellow-text{
