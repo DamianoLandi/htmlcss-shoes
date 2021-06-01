@@ -6,12 +6,6 @@
     font-family: 'Rubik Mono One', sans-serif;
 }
 
-.clearfix::after{
-    content: "";
-    display: table;
-    clear:both;
-}
-
 nav{
     float:right;
     position:fixed;
