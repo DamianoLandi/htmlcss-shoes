@@ -9,9 +9,9 @@
 nav{
     float:right;
     position:fixed;
-    right:0;
-    top:0;
-    z-index: 2;
+    right:10px;
+    top:10px;
+    z-index: 1;
 }
 
 ul{
@@ -24,7 +24,19 @@ li{
     background-color: #fff;
     padding:10px 14px;
     border-radius: 50%;
+    box-shadow: 1px 1px 1px gray;
+    cursor: pointer;
 }
+
+li:hover{
+    padding: 15px 19px;
+    background-color: indigo;
+}
+
+li:hover a{
+    color: white;
+}
+
 
 a{
     text-decoration: none;
